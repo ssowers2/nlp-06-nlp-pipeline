@@ -3,11 +3,11 @@
 <!--additional badges are common. In your custom copy of the project, change `denisecase` to your GitHub account -->
 <!--To run link checks: open your project on GitHub, click the Actions tab, select "Check Links", click "Run workflow" -->
 
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ssowers2.github.io/nlp-06-nlp-pipeline/)
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
-[![CI Status](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
-[![Check Links](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/links.yml)
+[![CI Status](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
+[![Check Links](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/links.yml)
 
 > Structured EVTL pipeline for reliable extraction, cleaning, and NLP analysis of HTML web page data.
 > Adds spaCy-based text cleaning and derived NLP features to the Module 5 pipeline.
@@ -123,7 +123,7 @@ but fast, auditable preprocessing pipelines using tools like spaCy
 remain common in production when cost, speed, and
 explainability matter.
 For more see, the associated
-[documentation](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+[documentation](https://github.com/ssowers2/nlp-06-nlp-pipeline)
 for this project.
 
 ## Key Files
@@ -421,18 +421,9 @@ of the pipeline.
 
 ## Example Output
 
-<!-- TODO: change image links to point to your outputs -->
-<!-- For example:
+![Bar Chart](./docs/images/sowers_top_tokens.png)
 
-![Bar Chart](./data/processed/yourname_top_tokens.png)
-
-![Word Cloud](./data/processed/yourname_wordcloud.png)
-
--->
-
-![Bar Chart](./docs/images/case_top_tokens.png)
-
-![Word Cloud](./docs/images/case_wordcloud.png)
+![Word Cloud](./docs/images/sowers_wordcloud.png)
 
 ## Technical Modification
 
@@ -444,15 +435,15 @@ I also updated the bar chart styling by changing the bar color to purple and mak
 
 ### Why I made this change
 
-I wanted to make the visualization clearer and more focused on the most important words. Showing fewer tokens reduced clutter and made the results easier to interpret.
+I wanted to make the visualization clearer and more focused on the most important words. Showing fewer tokens reduces clutter and makes the results easier to interpret.
 
 ### What I observed
 
-After running the pipeline, the bar chart displayed only the top 10 tokens instead of 20. The output was easier to read, and the most relevant terms stood out.
+After running the pipeline, the bar chart displayed only the top 10 tokens instead of 20. The output was easier to read, and the most relevant terms stood out more clearly.
 
 ## Insights from Analysis
 
-![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
+![Bar Chart](./docs/images/sowers_top_tokens.png)
 
 ### Observations
 
