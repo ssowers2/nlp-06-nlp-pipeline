@@ -433,3 +433,35 @@ of the pipeline.
 ![Bar Chart](./docs/images/case_top_tokens.png)
 
 ![Word Cloud](./docs/images/case_wordcloud.png)
+
+## Technical Modification
+
+### What I changed
+
+I modified the Analyze stage by reducing the number of top tokens displayed in the frequency bar chart from 20 to 10.
+
+### Why I made this change
+
+I wanted to make the visualization clearer and more focused on the most important words. Showing fewer tokens reduced clutter and made the results easier to interpret.
+
+### What I observed
+
+After running the pipeline, the bar chart displayed only the top 10 tokens instead of 20. The output was easier to read, and the most relevant terms stood out.
+
+## Insights from Analysis
+
+![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
+
+### Observations
+
+The bar chart shows the most frequent tokens in the text. Words like "report" and "agents" appear most often, suggesting the text focuses on agent-based systems and analysis.
+
+Several other terms such as "execution", "researchers", and "system" appear with similar frequency, indicating consistent themes related to research and system behavior.
+
+### Interpretation
+
+The distribution of tokens suggests the document is focused on analyzing agent behavior, possibly in experimental or research settings. The presence of terms like "vulnerabilities" and "redteaming" may indicate a focus on system testing or security.
+
+### Reflection
+
+Reducing the number of tokens to 10 made the chart easier to read and helped highlight the most important terms more clearly without unnecessary clutter.
