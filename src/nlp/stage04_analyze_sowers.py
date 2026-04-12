@@ -118,11 +118,13 @@ def _plot_top_tokens(
     # barh creates a horizontal bar chart.
     # The y-values are the tokens (words),
     # and the x-values are their corresponding counts (frequencies).
-    ax.barh(list(reversed(words)), list(reversed(counts)), color="steelblue")
+    ax.barh(
+        list(reversed(words)), list(reversed(counts)), color="purple"
+    )  # Technical Modification
 
     # Set labels and title
     ax.set_xlabel("Frequency")
-    ax.set_title(title)
+    ax.set_title(title, fontweight="bold")  # Technical Modification
 
     # Adjust layout to prevent clipping of labels and title
     plt.tight_layout()

@@ -440,6 +440,8 @@ of the pipeline.
 
 I modified the Analyze stage by reducing the number of top tokens displayed in the frequency bar chart from 20 to 10.
 
+I also updated the bar chart styling by changing the bar color to purple and making the title bold to improve visual clarity and presentation.
+
 ### Why I made this change
 
 I wanted to make the visualization clearer and more focused on the most important words. Showing fewer tokens reduced clutter and made the results easier to interpret.
