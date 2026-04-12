@@ -444,7 +444,7 @@ After running the pipeline, the bar chart displayed only the top 10 tokens inste
 
 ## Insights from Analysis
 
-![Bar Chart](./docs/images/sowers_top_tokens.png)
+![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
 
 ### Observations
 
