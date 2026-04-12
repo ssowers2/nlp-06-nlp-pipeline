@@ -421,9 +421,10 @@ of the pipeline.
 
 ## Example Output
 
-![Bar Chart](./docs/images/sowers_top_tokens.png)
 
-![Word Cloud](./docs/images/sowers_wordcloud.png)
+![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
+
+![Word Cloud](data/processed/sowers_wordcloud.png)
 
 ## Technical Modification
 
