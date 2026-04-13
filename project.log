@@ -622,3 +622,441 @@
 2026-04-12 11:53:58 | INFO | CI | ========================
 2026-04-12 11:53:58 | INFO | CI | Pipeline executed successfully!
 2026-04-12 11:53:58 | INFO | CI | ========================
+2026-04-12 18:20:16 | INFO | CI | === RUN START ===
+2026-04-12 18:20:17 | INFO | CI | project=Module 6: EVTAL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 18:20:17 | INFO | CI | repo_dir=nlp-06-nlp-pipeline
+2026-04-12 18:20:17 | INFO | CI | python=3.14.3
+2026-04-12 18:20:17 | INFO | CI | os=Windows 11
+2026-04-12 18:20:17 | INFO | CI | shell=powershell
+2026-04-12 18:20:17 | INFO | CI | cwd=.
+2026-04-12 18:20:17 | INFO | CI | github_actions=False
+2026-04-12 18:20:17 | INFO | CI | START PIPELINE
+2026-04-12 18:20:17 | INFO | CI | ROOT_PATH = .
+2026-04-12 18:20:17 | INFO | CI | DATA_PATH = data
+2026-04-12 18:20:17 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 18:20:17 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 18:20:17 | INFO | CI | ========================
+2026-04-12 18:20:17 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 18:20:17 | INFO | CI | ========================
+2026-04-12 18:20:17 | INFO | CI | EXTRACT: Fetching HTML from https://s7customguitars.com/services/
+2026-04-12 18:20:17 | INFO | CI | SOURCE URL = https://s7customguitars.com/services/
+2026-04-12 18:20:17 | INFO | CI | SINK PATH = data\raw\sowers_raw_project.html
+2026-04-12 18:20:17 | INFO | CI | ========================
+2026-04-12 18:20:17 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 18:20:17 | INFO | CI | ========================
+2026-04-12 18:20:17 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 18:20:17 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 18:20:17 | INFO | CI | Top-level elements: ['html']
+2026-04-12 18:20:17 | INFO | CI | VALIDATE: Title found: False
+2026-04-12 18:20:17 | INFO | CI | VALIDATE: Authors found: False
+2026-04-12 18:20:17 | INFO | CI | VALIDATE: Abstract found: False
+2026-04-12 18:20:17 | INFO | CI | VALIDATE: Subjects found: False
+2026-04-12 18:20:17 | INFO | CI | VALIDATE: Dateline found: False
+2026-04-12 18:44:26 | INFO | CI | === RUN START ===
+2026-04-12 18:44:26 | INFO | CI | project=Module 6: EVTAL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 18:44:26 | INFO | CI | repo_dir=nlp-06-nlp-pipeline
+2026-04-12 18:44:26 | INFO | CI | python=3.14.3
+2026-04-12 18:44:26 | INFO | CI | os=Windows 11
+2026-04-12 18:44:26 | INFO | CI | shell=powershell
+2026-04-12 18:44:26 | INFO | CI | cwd=.
+2026-04-12 18:44:26 | INFO | CI | github_actions=False
+2026-04-12 18:44:26 | INFO | CI | START PIPELINE
+2026-04-12 18:44:26 | INFO | CI | ROOT_PATH = .
+2026-04-12 18:44:26 | INFO | CI | DATA_PATH = data
+2026-04-12 18:44:26 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 18:44:26 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 18:44:26 | INFO | CI | ========================
+2026-04-12 18:44:26 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 18:44:26 | INFO | CI | ========================
+2026-04-12 18:44:26 | INFO | CI | EXTRACT: Fetching HTML from https://s7customguitars.com/services/
+2026-04-12 18:44:26 | INFO | CI | SOURCE URL = https://s7customguitars.com/services/
+2026-04-12 18:44:26 | INFO | CI | SINK PATH = data\raw\sowers_raw_project.html
+2026-04-12 18:44:26 | INFO | CI | ========================
+2026-04-12 18:44:26 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 18:44:26 | INFO | CI | ========================
+2026-04-12 18:44:26 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 18:44:27 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 18:44:27 | INFO | CI | Top-level elements: ['html']
+2026-04-12 18:44:27 | INFO | CI | VALIDATE: Title found: True
+2026-04-12 18:44:27 | INFO | CI | VALIDATE: Paragraphs found: True
+2026-04-12 18:44:27 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 18:44:27 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | Extracting content from website HTML
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 3.1: Extract raw fields from HTML
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | Extracted title: Services & Prices
+2026-04-12 18:44:27 | INFO | CI | Extracted paragraph count: 113
+2026-04-12 18:44:27 | INFO | CI | Extracted content preview: S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 3.2: Clean and normalize text fields
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI |   content (raw):   S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:44:27 | INFO | CI |   content (clean): s7 custom guitars music guitar way 65hour 30minute minimum setup includes diagnostic inspection entire guitar inspection...
+2026-04-12 18:44:27 | INFO | CI |   characters removed: 1376 (29.9%)
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 3.3: Engineer derived features
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI |   content_word_count: 797
+2026-04-12 18:44:27 | INFO | CI |   token_count:        512
+2026-04-12 18:44:27 | INFO | CI |   unique_token_count: 264
+2026-04-12 18:44:27 | INFO | CI |   type_token_ratio:   0.5156
+2026-04-12 18:44:27 | INFO | CI |   top 10 tokens:      ['s7', 'custom', 'guitars', 'music', 'guitar', 'way', '65hour', '30minute', 'minimum', 'setup']
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 3.4: Build record and create DataFrame
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | Created DataFrame with 1 row and 8 columns
+2026-04-12 18:44:27 | INFO | CI | Columns: ['page_title', 'content_raw', 'content_clean', 'tokens', 'content_word_count', 'token_count', 'unique_token_count', 'type_token_ratio']
+2026-04-12 18:44:27 | INFO | CI | Sink: Pandas DataFrame created
+2026-04-12 18:44:27 | INFO | CI | Transformation complete.
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | STAGE 04: ANALYZE starting...
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 4.1: Extract tokens and summary statistics
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI |   Page title:                   Services & Prices
+2026-04-12 18:44:27 | INFO | CI |   Content word count (raw):     797
+2026-04-12 18:44:27 | INFO | CI |   Token count (clean):          512
+2026-04-12 18:44:27 | INFO | CI |   Unique token count:           264
+2026-04-12 18:44:27 | INFO | CI |   Type-token ratio:             0.5156
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:27 | INFO | CI | PHASE 4.2: Top 10 token frequency - treemap
+2026-04-12 18:44:27 | INFO | CI | ========================
+2026-04-12 18:44:29 | INFO | CI |   Saved treemap to data\processed\sowers_top_tokens_treemap.png
+2026-04-12 18:44:29 | INFO | CI | ========================
+2026-04-12 18:44:29 | INFO | CI | PHASE 4.3: Word cloud
+2026-04-12 18:44:29 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI |   Saved word cloud to data\processed\sowers_wordcloud_project.png
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI | PHASE 4.4: Top token summary (inline)
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI |   Top 10 tokens by frequency:
+2026-04-12 18:44:30 | INFO | CI |       1. –                              29
+2026-04-12 18:44:30 | INFO | CI |       2. setup                          16
+2026-04-12 18:44:30 | INFO | CI |       3. includes                       9
+2026-04-12 18:44:30 | INFO | CI |       4. string                         8
+2026-04-12 18:44:30 | INFO | CI |       5. fret                           7
+2026-04-12 18:44:30 | INFO | CI |       6. fretboard                      7
+2026-04-12 18:44:30 | INFO | CI |       7. 65                             7
+2026-04-12 18:44:30 | INFO | CI |       8. prices                         7
+2026-04-12 18:44:30 | INFO | CI |       9. included                       6
+2026-04-12 18:44:30 | INFO | CI |      10. 350                            6
+2026-04-12 18:44:30 | INFO | CI | Sink: visualizations saved to data/processed/
+2026-04-12 18:44:30 | INFO | CI | Analysis complete.
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI | SINK PATH = data\processed\sowers_processed_project.csv
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:44:30 | INFO | CI | Pipeline executed successfully!
+2026-04-12 18:44:30 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | === RUN START ===
+2026-04-12 18:52:55 | INFO | CI | project=Module 6: EVTAL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 18:52:55 | INFO | CI | repo_dir=nlp-06-nlp-pipeline
+2026-04-12 18:52:55 | INFO | CI | python=3.14.3
+2026-04-12 18:52:55 | INFO | CI | os=Windows 11
+2026-04-12 18:52:55 | INFO | CI | shell=powershell
+2026-04-12 18:52:55 | INFO | CI | cwd=.
+2026-04-12 18:52:55 | INFO | CI | github_actions=False
+2026-04-12 18:52:55 | INFO | CI | START PIPELINE
+2026-04-12 18:52:55 | INFO | CI | ROOT_PATH = .
+2026-04-12 18:52:55 | INFO | CI | DATA_PATH = data
+2026-04-12 18:52:55 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 18:52:55 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | EXTRACT: Fetching HTML from https://s7customguitars.com/services/
+2026-04-12 18:52:55 | INFO | CI | SOURCE URL = https://s7customguitars.com/services/
+2026-04-12 18:52:55 | INFO | CI | SINK PATH = data\raw\sowers_raw_project.html
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 18:52:55 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 18:52:55 | INFO | CI | Top-level elements: ['html']
+2026-04-12 18:52:55 | INFO | CI | VALIDATE: Title found: True
+2026-04-12 18:52:55 | INFO | CI | VALIDATE: Paragraphs found: True
+2026-04-12 18:52:55 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 18:52:55 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | Extracting content from website HTML
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 3.1: Extract raw fields from HTML
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | Extracted title: Services & Prices
+2026-04-12 18:52:55 | INFO | CI | Extracted paragraph count: 113
+2026-04-12 18:52:55 | INFO | CI | Extracted content preview: S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 3.2: Clean and normalize text fields
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI |   content (raw):   S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:52:55 | INFO | CI |   content (clean): s7 custom guitars music guitar way 65hour 30minute minimum setup includes diagnostic inspection entire guitar inspection...
+2026-04-12 18:52:55 | INFO | CI |   characters removed: 1376 (29.9%)
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 3.3: Engineer derived features
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI |   content_word_count: 797
+2026-04-12 18:52:55 | INFO | CI |   token_count:        512
+2026-04-12 18:52:55 | INFO | CI |   unique_token_count: 264
+2026-04-12 18:52:55 | INFO | CI |   type_token_ratio:   0.5156
+2026-04-12 18:52:55 | INFO | CI |   top 10 tokens:      ['s7', 'custom', 'guitars', 'music', 'guitar', 'way', '65hour', '30minute', 'minimum', 'setup']
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 3.4: Build record and create DataFrame
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | Created DataFrame with 1 row and 8 columns
+2026-04-12 18:52:55 | INFO | CI | Columns: ['page_title', 'content_raw', 'content_clean', 'tokens', 'content_word_count', 'token_count', 'unique_token_count', 'type_token_ratio']
+2026-04-12 18:52:55 | INFO | CI | Sink: Pandas DataFrame created
+2026-04-12 18:52:55 | INFO | CI | Transformation complete.
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | STAGE 04: ANALYZE starting...
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 4.1: Extract tokens and summary statistics
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI |   Page title:                   Services & Prices
+2026-04-12 18:52:55 | INFO | CI |   Content word count (raw):     797
+2026-04-12 18:52:55 | INFO | CI |   Token count (clean):          512
+2026-04-12 18:52:55 | INFO | CI |   Unique token count:           264
+2026-04-12 18:52:55 | INFO | CI |   Type-token ratio:             0.5156
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:55 | INFO | CI | PHASE 4.2: Top 10 token frequency - treemap
+2026-04-12 18:52:55 | INFO | CI | ========================
+2026-04-12 18:52:56 | INFO | CI |   Saved treemap to data\processed\sowers_top_tokens_treemap.png
+2026-04-12 18:52:56 | INFO | CI | ========================
+2026-04-12 18:52:56 | INFO | CI | PHASE 4.3: Word cloud
+2026-04-12 18:52:56 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI |   Saved word cloud to data\processed\sowers_wordcloud_project.png
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI | PHASE 4.4: Top token summary (inline)
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI |   Top 10 tokens by frequency:
+2026-04-12 18:52:57 | INFO | CI |       1. –                              29
+2026-04-12 18:52:57 | INFO | CI |       2. setup                          16
+2026-04-12 18:52:57 | INFO | CI |       3. includes                       9
+2026-04-12 18:52:57 | INFO | CI |       4. string                         8
+2026-04-12 18:52:57 | INFO | CI |       5. fret                           7
+2026-04-12 18:52:57 | INFO | CI |       6. fretboard                      7
+2026-04-12 18:52:57 | INFO | CI |       7. 65                             7
+2026-04-12 18:52:57 | INFO | CI |       8. prices                         7
+2026-04-12 18:52:57 | INFO | CI |       9. included                       6
+2026-04-12 18:52:57 | INFO | CI |      10. 350                            6
+2026-04-12 18:52:57 | INFO | CI | Sink: visualizations saved to data/processed/
+2026-04-12 18:52:57 | INFO | CI | Analysis complete.
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI | SINK PATH = data\processed\sowers_processed_project.csv
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:52:57 | INFO | CI | Pipeline executed successfully!
+2026-04-12 18:52:57 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | === RUN START ===
+2026-04-12 18:55:30 | INFO | CI | project=Module 6: EVTAL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 18:55:30 | INFO | CI | repo_dir=nlp-06-nlp-pipeline
+2026-04-12 18:55:30 | INFO | CI | python=3.14.3
+2026-04-12 18:55:30 | INFO | CI | os=Windows 11
+2026-04-12 18:55:30 | INFO | CI | shell=powershell
+2026-04-12 18:55:30 | INFO | CI | cwd=.
+2026-04-12 18:55:30 | INFO | CI | github_actions=False
+2026-04-12 18:55:30 | INFO | CI | START PIPELINE
+2026-04-12 18:55:30 | INFO | CI | ROOT_PATH = .
+2026-04-12 18:55:30 | INFO | CI | DATA_PATH = data
+2026-04-12 18:55:30 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 18:55:30 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | EXTRACT: Fetching HTML from https://s7customguitars.com/services/
+2026-04-12 18:55:30 | INFO | CI | SOURCE URL = https://s7customguitars.com/services/
+2026-04-12 18:55:30 | INFO | CI | SINK PATH = data\raw\sowers_raw_project.html
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 18:55:30 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 18:55:30 | INFO | CI | Top-level elements: ['html']
+2026-04-12 18:55:30 | INFO | CI | VALIDATE: Title found: True
+2026-04-12 18:55:30 | INFO | CI | VALIDATE: Paragraphs found: True
+2026-04-12 18:55:30 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 18:55:30 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | Extracting content from website HTML
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 3.1: Extract raw fields from HTML
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | Extracted title: Services & Prices
+2026-04-12 18:55:30 | INFO | CI | Extracted paragraph count: 113
+2026-04-12 18:55:30 | INFO | CI | Extracted content preview: S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 3.2: Clean and normalize text fields
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI |   content (raw):   S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 18:55:30 | INFO | CI |   content (clean): custom guitars music guitar way minimum setup includes diagnostic inspection entire guitar inspection electronics recomm...
+2026-04-12 18:55:30 | INFO | CI |   characters removed: 1863 (40.4%)
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 3.3: Engineer derived features
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI |   content_word_count: 797
+2026-04-12 18:55:30 | INFO | CI |   token_count:        368
+2026-04-12 18:55:30 | INFO | CI |   unique_token_count: 202
+2026-04-12 18:55:30 | INFO | CI |   type_token_ratio:   0.5489
+2026-04-12 18:55:30 | INFO | CI |   top 10 tokens:      ['custom', 'guitars', 'music', 'guitar', 'way', 'minimum', 'setup', 'includes', 'diagnostic', 'inspection']
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 3.4: Build record and create DataFrame
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | Created DataFrame with 1 row and 8 columns
+2026-04-12 18:55:30 | INFO | CI | Columns: ['page_title', 'content_raw', 'content_clean', 'tokens', 'content_word_count', 'token_count', 'unique_token_count', 'type_token_ratio']
+2026-04-12 18:55:30 | INFO | CI | Sink: Pandas DataFrame created
+2026-04-12 18:55:30 | INFO | CI | Transformation complete.
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | STAGE 04: ANALYZE starting...
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 4.1: Extract tokens and summary statistics
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI |   Page title:                   Services & Prices
+2026-04-12 18:55:30 | INFO | CI |   Content word count (raw):     797
+2026-04-12 18:55:30 | INFO | CI |   Token count (clean):          368
+2026-04-12 18:55:30 | INFO | CI |   Unique token count:           202
+2026-04-12 18:55:30 | INFO | CI |   Type-token ratio:             0.5489
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:30 | INFO | CI | PHASE 4.2: Top 10 token frequency - treemap
+2026-04-12 18:55:30 | INFO | CI | ========================
+2026-04-12 18:55:31 | INFO | CI |   Saved treemap to data\processed\sowers_top_tokens_treemap.png
+2026-04-12 18:55:31 | INFO | CI | ========================
+2026-04-12 18:55:31 | INFO | CI | PHASE 4.3: Word cloud
+2026-04-12 18:55:31 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI |   Saved word cloud to data\processed\sowers_wordcloud_project.png
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI | PHASE 4.4: Top token summary (inline)
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI |   Top 10 tokens by frequency:
+2026-04-12 18:55:32 | INFO | CI |       1. setup                          16
+2026-04-12 18:55:32 | INFO | CI |       2. includes                       9
+2026-04-12 18:55:32 | INFO | CI |       3. string                         8
+2026-04-12 18:55:32 | INFO | CI |       4. fret                           7
+2026-04-12 18:55:32 | INFO | CI |       5. fretboard                      7
+2026-04-12 18:55:32 | INFO | CI |       6. prices                         7
+2026-04-12 18:55:32 | INFO | CI |       7. included                       6
+2026-04-12 18:55:32 | INFO | CI |       8. bench                          6
+2026-04-12 18:55:32 | INFO | CI |       9. add                            6
+2026-04-12 18:55:32 | INFO | CI |      10. body                           6
+2026-04-12 18:55:32 | INFO | CI | Sink: visualizations saved to data/processed/
+2026-04-12 18:55:32 | INFO | CI | Analysis complete.
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI | SINK PATH = data\processed\sowers_processed_project.csv
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 18:55:32 | INFO | CI | Pipeline executed successfully!
+2026-04-12 18:55:32 | INFO | CI | ========================
+2026-04-12 19:00:18 | INFO | CI | === RUN START ===
+2026-04-12 19:00:18 | INFO | CI | project=Module 6: EVTAL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 19:00:18 | INFO | CI | repo_dir=nlp-06-nlp-pipeline
+2026-04-12 19:00:18 | INFO | CI | python=3.14.3
+2026-04-12 19:00:18 | INFO | CI | os=Windows 11
+2026-04-12 19:00:18 | INFO | CI | shell=powershell
+2026-04-12 19:00:18 | INFO | CI | cwd=.
+2026-04-12 19:00:18 | INFO | CI | github_actions=False
+2026-04-12 19:00:18 | INFO | CI | START PIPELINE
+2026-04-12 19:00:18 | INFO | CI | ROOT_PATH = .
+2026-04-12 19:00:18 | INFO | CI | DATA_PATH = data
+2026-04-12 19:00:18 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 19:00:18 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 19:00:18 | INFO | CI | ========================
+2026-04-12 19:00:18 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 19:00:18 | INFO | CI | ========================
+2026-04-12 19:00:18 | INFO | CI | EXTRACT: Fetching HTML from https://s7customguitars.com/services/
+2026-04-12 19:00:19 | INFO | CI | SOURCE URL = https://s7customguitars.com/services/
+2026-04-12 19:00:19 | INFO | CI | SINK PATH = data\raw\sowers_raw_project.html
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 19:00:19 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 19:00:19 | INFO | CI | Top-level elements: ['html']
+2026-04-12 19:00:19 | INFO | CI | VALIDATE: Title found: True
+2026-04-12 19:00:19 | INFO | CI | VALIDATE: Paragraphs found: True
+2026-04-12 19:00:19 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 19:00:19 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | Extracting content from website HTML
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 3.1: Extract raw fields from HTML
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | Extracted title: Services & Prices
+2026-04-12 19:00:19 | INFO | CI | Extracted paragraph count: 113
+2026-04-12 19:00:19 | INFO | CI | Extracted content preview: S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 3.2: Clean and normalize text fields
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI |   content (raw):   S7 Custom Guitars Your Music, Your Guitar, Your Way $65/hour (30-minute minimum) Our Setup includes diagnostic and inspe...
+2026-04-12 19:00:19 | INFO | CI |   content (clean): custom guitars music guitar way minimum setup includes diagnostic inspection entire guitar inspection electronics recomm...
+2026-04-12 19:00:19 | INFO | CI |   characters removed: 1863 (40.4%)
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 3.3: Engineer derived features
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI |   content_word_count: 797
+2026-04-12 19:00:19 | INFO | CI |   token_count:        368
+2026-04-12 19:00:19 | INFO | CI |   unique_token_count: 202
+2026-04-12 19:00:19 | INFO | CI |   type_token_ratio:   0.5489
+2026-04-12 19:00:19 | INFO | CI |   top 10 tokens:      ['custom', 'guitars', 'music', 'guitar', 'way', 'minimum', 'setup', 'includes', 'diagnostic', 'inspection']
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 3.4: Build record and create DataFrame
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | Created DataFrame with 1 row and 8 columns
+2026-04-12 19:00:19 | INFO | CI | Columns: ['page_title', 'content_raw', 'content_clean', 'tokens', 'content_word_count', 'token_count', 'unique_token_count', 'type_token_ratio']
+2026-04-12 19:00:19 | INFO | CI | Sink: Pandas DataFrame created
+2026-04-12 19:00:19 | INFO | CI | Transformation complete.
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | STAGE 04: ANALYZE starting...
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 4.1: Extract tokens and summary statistics
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI |   Page title:                   Services & Prices
+2026-04-12 19:00:19 | INFO | CI |   Content word count (raw):     797
+2026-04-12 19:00:19 | INFO | CI |   Token count (clean):          368
+2026-04-12 19:00:19 | INFO | CI |   Unique token count:           202
+2026-04-12 19:00:19 | INFO | CI |   Type-token ratio:             0.5489
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 4.2: Top 10 token frequency - treemap
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI |   Saved treemap to data\processed\sowers_top_tokens_treemap.png
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:19 | INFO | CI | PHASE 4.3: Word cloud
+2026-04-12 19:00:19 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI |   Saved word cloud to data\processed\sowers_wordcloud_project.png
+2026-04-12 19:00:20 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI | PHASE 4.4: Top token summary (inline)
+2026-04-12 19:00:20 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI |   Top 10 tokens by frequency:
+2026-04-12 19:00:20 | INFO | CI |       1. setup                          16
+2026-04-12 19:00:20 | INFO | CI |       2. includes                       9
+2026-04-12 19:00:20 | INFO | CI |       3. string                         8
+2026-04-12 19:00:20 | INFO | CI |       4. fret                           7
+2026-04-12 19:00:20 | INFO | CI |       5. fretboard                      7
+2026-04-12 19:00:20 | INFO | CI |       6. prices                         7
+2026-04-12 19:00:20 | INFO | CI |       7. included                       6
+2026-04-12 19:00:20 | INFO | CI |       8. bench                          6
+2026-04-12 19:00:20 | INFO | CI |       9. add                            6
+2026-04-12 19:00:20 | INFO | CI |      10. body                           6
+2026-04-12 19:00:20 | INFO | CI | Sink: visualizations saved to data/processed/
+2026-04-12 19:00:20 | INFO | CI | Analysis complete.
+2026-04-12 19:00:20 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 19:00:20 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI | SINK PATH = data\processed\sowers_processed_project.csv
+2026-04-12 19:00:20 | INFO | CI | ========================
+2026-04-12 19:00:20 | INFO | CI | Pipeline executed successfully!
+2026-04-12 19:00:20 | INFO | CI | ========================

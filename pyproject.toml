@@ -24,6 +24,7 @@ dependencies = [
     "wordcloud",       # WHY: Quick visual exploration of word frequencies in text corpora.
     "spacy",           # WHY: Industrial-strength NLP library for tokenization and linguistic analysis.
     "en-core-web-sm", # WHY: Small English model for spaCy providing tokenization, Part-of-Speech (POS)tagging, and  Named Entity Recognition (NER).
+    "squarify>=0.4.4",
 ]
 
 [project.optional-dependencies]

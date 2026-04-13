@@ -426,7 +426,7 @@ of the pipeline.
 
 ![Word Cloud](data/processed/sowers_wordcloud.png)
 
-## Technical Modification
+## Phase 4: Technical Modification
 
 ### What I changed
 
@@ -459,3 +459,26 @@ The distribution of tokens suggests the document is focused on analyzing agent b
 ### Reflection
 
 Reducing the number of tokens to 10 made the chart easier to read and helped highlight the most important terms more clearly without unnecessary clutter.
+
+## Phase 5: Apply Skills to Complete the Project
+
+### What I Did
+
+I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing a custom guitar services website instead of the original academic paper. I updated multiple stages of the pipeline to handle general website content and produce meaningful analysis.
+
+### Changes Made
+
+- Updated the **Validate stage** to check for general HTML elements (headings and paragraphs) instead of arXiv-specific fields
+- Redesigned the **Transform stage** to extract and clean webpage text, focusing on service descriptions
+- Filtered out non-meaningful tokens (e.g., symbols and noise) to improve text quality
+- Modified the **Analyze stage** to replace the bar chart with a treemap visualization
+- Added **color scaling and black borders** to improve readability of the treemap
+- Generated a **word cloud** to complement the treemap and highlight overall themes
+
+### What I Observed
+
+The analysis showed that the most frequent terms included **"setup"**, **"string"**, **"fret"**, and **"included"**, indicating a strong focus on guitar setup and maintenance services. The results clearly reflect the domain-specific language used on the website.
+
+### What This Demonstrates
+
+This project demonstrates that the NLP pipeline can be adapted to different types of text beyond academic sources. By modifying validation, transformation, and analysis steps, the pipeline successfully extracted and visualized meaningful insights from a business website.
