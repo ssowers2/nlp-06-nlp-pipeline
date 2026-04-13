@@ -421,7 +421,6 @@ of the pipeline.
 
 ## Example Output
 
-
 ![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
 
 ![Word Cloud](data/processed/sowers_wordcloud.png)
@@ -442,29 +441,13 @@ I wanted to make the visualization clearer and more focused on the most importan
 
 After running the pipeline, the bar chart displayed only the top 10 tokens instead of 20. The output was easier to read, and the most relevant terms stood out more clearly.
 
-## Insights from Analysis
-
-![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
-
-### Observations
-
-The bar chart shows the most frequent tokens in the text. Words like "report" and "agents" appear most often, suggesting the text focuses on agent-based systems and analysis.
-
-Several other terms such as "execution", "researchers", and "system" appear with similar frequency, indicating consistent themes related to research and system behavior.
-
-### Interpretation
-
-The distribution of tokens suggests the document is focused on analyzing agent behavior, possibly in experimental or research settings. The presence of terms like "vulnerabilities" and "redteaming" may indicate a focus on system testing or security.
-
-### Reflection
-
-Reducing the number of tokens to 10 made the chart easier to read and helped highlight the most important terms more clearly without unnecessary clutter.
+---
 
 ## Phase 5: Apply Skills to Complete the Project
 
 ### What I Did
 
-I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing a custom guitar services website instead of the original academic paper. I updated multiple stages of the pipeline to handle general website content and produce meaningful analysis.
+I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing my husband’s custom guitar website (which I designed), specifically the services and prices page. I updated multiple stages of the pipeline to handle general website content and produce meaningful analysis.
 
 ### Changes Made
 
@@ -475,10 +458,34 @@ I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing a cust
 - Added **color scaling and black borders** to improve readability of the treemap
 - Generated a **word cloud** to complement the treemap and highlight overall themes
 
-### What I Observed
+---
 
-The analysis showed that the most frequent terms included **"setup"**, **"string"**, **"fret"**, and **"included"**, indicating a strong focus on guitar setup and maintenance services. The results clearly reflect the domain-specific language used on the website.
+## Insights from Analysis
 
-### What This Demonstrates
+### Treemap of Top Tokens
 
-This project demonstrates that the NLP pipeline can be adapted to different types of text beyond academic sources. By modifying validation, transformation, and analysis steps, the pipeline successfully extracted and visualized meaningful insights from a business website.
+![Treemap](data/processed/sowers_top_tokens_treemap.png)
+
+### Word Cloud
+
+![Word Cloud](data/processed/sowers_wordcloud_project.png)
+
+---
+
+### Observations
+
+The treemap shows that **"setup"** is the most dominant term, indicating it is a primary service offered. Other frequent terms such as **"string"**, **"fret"**, and **"included"** reflect common guitar maintenance and service features.
+
+The word cloud reinforces these findings by highlighting the same key terms, along with supporting words such as **"price"**, **"body"**, and **"pickup"**.
+
+---
+
+### Interpretation
+
+The results suggest the website strongly emphasizes guitar setup and maintenance services. The presence of technical terms indicates a focus on specialized, detailed work rather than general descriptions.
+
+---
+
+### Reflection
+
+Using a treemap instead of a bar chart provides a more compact and visually intuitive way to compare term importance. The addition of borders and color scaling improves readability, while the word cloud offers a quick overview of the main themes.
