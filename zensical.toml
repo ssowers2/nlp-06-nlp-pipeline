@@ -58,7 +58,8 @@ features = [
 # Folder-based navigation is an optional alternative.
 
 nav = [
-    { "Home" = "nlp-portfolio.md" },
+    { "Home" = "index.md" },
+    { "NLP Portfolio" = "nlp-portfolio.md" },
     { "NLP Evolution" = "nlp-evolution.md" },
     { "Glossary" = "glossary.md" },
     { "Project Instructions" = "project-instructions.md" },
