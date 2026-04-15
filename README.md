@@ -419,12 +419,6 @@ In this project, validation is implemented directly,
 so all checks are visible, repeatable, and easy to review as part
 of the pipeline.
 
-## Example Output
-
-![Top Tokens Bar Chart](data/processed/sowers_top_tokens.png)
-
-![Word Cloud](data/processed/sowers_wordcloud.png)
-
 ## Phase 4: Technical Modification
 
 ### What I changed
@@ -447,7 +441,7 @@ After running the pipeline, the bar chart displayed only the top 10 tokens inste
 
 ### What I Did
 
-I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing my husband’s custom guitar website (which I designed), specifically the services and prices page. I updated multiple stages of the pipeline to handle general website content and produce meaningful analysis.
+I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing my husband’s custom guitar website (which I designed), specifically the services and prices page. I updated multiple stages of the pipeline to handle general website content and produce meaningful analysis. This demonstrates applying NLP techniques to a real-world business website instead of an academic source.
 
 ### Changes Made
 
@@ -464,11 +458,11 @@ I applied the EVTAL NLP pipeline to a new real-world dataset by analyzing my hus
 
 ### Treemap of Top Tokens
 
-![Treemap](data/processed/sowers_top_tokens_treemap.png)
+![Treemap](docs/images/sowers_top_tokens_treemap.png)
 
 ### Word Cloud
 
-![Word Cloud](data/processed/sowers_wordcloud_project.png)
+![Word Cloud](docs/images/sowers_wordcloud_project.png)
 
 ---
 
