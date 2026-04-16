@@ -3,7 +3,7 @@
 <!--additional badges are common. In your custom copy of the project, change `denisecase` to your GitHub account -->
 <!--To run link checks: open your project on GitHub, click the Actions tab, select "Check Links", click "Run workflow" -->
 
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ssowers2.github.io/nlp-06-nlp-pipeline/)
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ssowers2.github.io/nlp-06-nlp-pipeline/nlp-portfolio/)
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 [![CI Status](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/ssowers2/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
