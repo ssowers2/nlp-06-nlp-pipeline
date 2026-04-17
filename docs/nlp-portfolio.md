@@ -28,9 +28,7 @@ To handle messy and/or inconsistent data:
 - Combined multiple paragraph elements into a single clean text field
 - Normalized whitespace and filtered stopwords
 
-Source Website:
-
-[S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
+**Source Website:**[S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
 
 ---
 
@@ -40,11 +38,11 @@ I implemented a full EVTAL pipeline:
 
 **Extract:** Pulled HTML from a live website and saved raw content
 
-[Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
+- [Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
 
 **Validate:** Checked for required elements such as headings and paragraph tags
 
-[Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
+- [Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
 
 **Transform:** Cleaned text, tokenized, and computed features (token counts, ratios)
 
@@ -54,23 +52,23 @@ I implemented a full EVTAL pipeline:
 
 **Analyze:** Generated treemap and word cloud visualizations and frequency summaries
 
-[Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
+- [Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
 
 **Load:** Saved processed data to CSV
 
-[Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
+- [Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
 
 **Files:**
 
-[Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
+- [Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
 
-Image 1: Treemap
+**Image 1: Treemap**
 ![Treemap](images/sowers_top_tokens_treemap.png)
 
-Image 2: Wordcloud
+**Image 2: Wordcloud**
 ![Word Cloud](images/sowers_wordcloud_project.png)
 
-Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
+**Pipeline file:** `src/nlp/pipeline_web_html_sowers_project.py`
 
 ---
 
@@ -102,19 +100,19 @@ Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
 
 ### Project 1: Guitar Services NLP Pipeline
 
-[Link to Project](https://github.com/ssowers2/nlp-06-nlp-pipeline)
+- [Link to Project](https://github.com/ssowers2/nlp-06-nlp-pipeline)
 
 This project applies an EVTAL NLP pipeline to a real-world website. It extracts, cleans, and analyzes text, producing visualizations that highlight key service-related terms.
 
 ### Project 2: KISS Network Website Pipeline
 
-[Link to Project](https://github.com/ssowers2/nlp-05-web-documents)
+- [Link to Project](https://github.com/ssowers2/nlp-05-web-documents)
 
 This project applies the EVTL pipeline to a new HTML website (KISS Network), demonstrating how the pipeline can be adapted to different page structures by updating validation and transformation logic. It highlights the ability to extract, restructure, and engineer features from real-world web content.
 
 ### Project 3: Text Exploration and Corpus Analysis
 
-[Link to Project](https://github.com/ssowers2/nlp-03-text-exploration)
+- [Link to Project](https://github.com/ssowers2/nlp-03-text-exploration)
 
 This project explores a custom text corpus using tokenization, frequency analysis, co-occurrence, and bigrams to identify patterns in text before applying machine learning. It demonstrates foundational NLP skills and the ability to analyze and compare vocabulary across categories.
 
