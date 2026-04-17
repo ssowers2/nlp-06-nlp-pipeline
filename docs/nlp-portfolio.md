@@ -92,7 +92,7 @@ Files:
 
 ### Project 1: Guitar Services NLP Pipeline
 
-[Link to Project 1](https://github.com/ssowers2/nlp-06-nlp-pipeline)
+[Link to Project](https://github.com/ssowers2/nlp-06-nlp-pipeline)
 
 This project applies an EVTAL NLP pipeline to a real-world website. It extracts, cleans, and analyzes text, producing visualizations that highlight key service-related terms.
 
