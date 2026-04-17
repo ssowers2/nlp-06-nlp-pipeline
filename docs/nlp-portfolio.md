@@ -57,11 +57,10 @@ I implemented a full EVTAL pipeline:
 
 Files:
 
-- [Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed.csv)
-- ![Treemap](docs/images/sowers_top_tokens_treemap.png)
-- ![Word Cloud](docs/images/sowers_wordcloud_project.png)
+- [Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
+- ![Treemap](images/sowers_top_tokens_treemap.png)
+- ![Word Cloud](images/sowers_wordcloud_project.png)
 - Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
-- Output CSV: `data/processed/sowers_processed.csv`
 
 ---
 
@@ -85,6 +84,7 @@ Files:
 - The treemap clearly showed the relative importance of each term based on size and color
 - The results reflect domain-specific language used in a real business setting
 - Visualizations made it easier to quickly understand key themes
+- This demonstrates how NLP can be used to quickly understand the focus of a business website without manually reviewing all content.
 
 ---
 
@@ -117,7 +117,7 @@ This project explores a custom text corpus using tokenization, frequency analysi
 - **Text cleaning and normalization:** Removing punctuation, stopwords, and non-meaningful tokens to prepare text for analysis
 - **Text tokenization and preprocessing:** Tokenizing text and preparing structured datasets for NLP analysis
 - **Domain-specific text interpretation:** Interpreting domain-specific terminology (e.g., guitar setup, fret work) through NLP analysis
-- **EVTAL/EVTL pipeline development:** Building and modifying multi-stage data pipelines (Extract, Validate, Transform, Analyze, Load)
+- **EVTAL pipeline development:** Building and modifying multi-stage data pipelines (Extract, Validate, Transform, Analyze, Load)
 - **Pipeline adaptation:** Adjusting validation and transformation logic to handle different data sources and structures
 - **Data validation:** Ensuring required fields and correct structure before processing data
 - **Handling inconsistent data:** Managing missing fields, structural differences, and real-world data variability
@@ -127,7 +127,6 @@ This project explores a custom text corpus using tokenization, frequency analysi
 - **Categorical text analysis:** Organizing and comparing text data across categories (e.g., cupcake, cake, pie)
 - **Data visualization:** Creating and customizing visualizations (bar charts, treemaps, word clouds) using Matplotlib
 - **Reproducible workflows:** Structuring projects and workflows for consistent, repeatable results
-- **Jupyter notebook workflows:** Running, debugging, and organizing analysis in notebooks
 - **Version control:** Managing projects using Git and GitHub, including commits and troubleshooting issues
 - **Data organization:** Managing datasets and outputs to maintain clean, non-overwritten results
 - **Technical communication:** Presenting analysis, insights, and results clearly using Markdown and visual outputs
