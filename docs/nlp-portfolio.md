@@ -1,5 +1,8 @@
 # NLP Portfolio: Web Mining and Applied NLP
 
+**Author:** Your Name
+**Date:** April 2026
+
 ## Overview
 
 This portfolio highlights my work applying an EVTAL NLP pipeline to a real-world website, specifically a custom guitar services and pricing page. I extracted and analyzed text from the services page, cleaned and processed the content using Python, and generated visualizations such as a treemap and word cloud to identify key service-related terms like setup, fret work, and string adjustments.
@@ -80,7 +83,7 @@ I implemented a full EVTAL pipeline:
 - **Vocabulary richness:** Calculated type-token ratio
 - **Token counts:** Total and unique token counts
 - **Visual signals:** Treemap and word cloud to show importance and patterns
-- Code: `Counter(tokens)` in analyze stage
+- **Code:** `Counter(tokens)` in analyze stage
 - Output logs showing ranked token frequency
 - Visualization files in `docs/images/`
 
