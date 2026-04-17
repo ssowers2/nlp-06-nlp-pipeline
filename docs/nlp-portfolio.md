@@ -58,8 +58,11 @@ I implemented a full EVTAL pipeline:
 Files:
 
 - [Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
-- ![Treemap](images/sowers_top_tokens_treemap.png)
-- ![Word Cloud](images/sowers_wordcloud_project.png)
+
+![Treemap](images/sowers_top_tokens_treemap.png)
+
+![Word Cloud](images/sowers_wordcloud_project.png)
+
 - Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
 
 ---
