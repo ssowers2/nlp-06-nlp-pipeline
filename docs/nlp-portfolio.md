@@ -30,7 +30,7 @@ To handle messy and/or inconsistent data:
 
 Source Website:
 
-- [S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
+[S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
 
 ---
 
@@ -40,11 +40,11 @@ I implemented a full EVTAL pipeline:
 
 **Extract:** Pulled HTML from a live website and saved raw content
 
-- [Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
+[Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
 
 **Validate:** Checked for required elements such as headings and paragraph tags
 
-- [Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
+[Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
 
 **Transform:** Cleaned text, tokenized, and computed features (token counts, ratios)
 
@@ -54,21 +54,23 @@ I implemented a full EVTAL pipeline:
 
 **Analyze:** Generated treemap and word cloud visualizations and frequency summaries
 
-- [Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
+[Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
 
 **Load:** Saved processed data to CSV
 
-- [Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
+[Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
 
-Files:
+**Files:**
 
-- [Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
+[Processed CSV](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/data/processed/sowers_processed_project.csv)
 
+Image 1: Treemap
 ![Treemap](images/sowers_top_tokens_treemap.png)
 
+Image 2: Wordcloud
 ![Word Cloud](images/sowers_wordcloud_project.png)
 
-- Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
+Pipeline file: `src/nlp/pipeline_web_html_sowers_project.py`
 
 ---
 
