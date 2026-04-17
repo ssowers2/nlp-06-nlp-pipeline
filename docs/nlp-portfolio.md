@@ -1,6 +1,6 @@
 # NLP Portfolio: Web Mining and Applied NLP
 
-**Author:** Your Name
+**Author:** Sabriya Sowers
 **Date:** April 2026
 
 ## Overview
