@@ -38,22 +38,27 @@ Source Website:
 
 I implemented a full EVTAL pipeline:
 
-- **Extract:** Pulled HTML from a live website and saved raw content
-  - [Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
+**Extract:** Pulled HTML from a live website and saved raw content
 
-- **Validate:** Checked for required elements such as headings and paragraph tags
-  - [Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
+- [Extract Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage01_extract.py)
 
-- **Transform:** Cleaned text, tokenized, and computed features (token counts, ratios)
-  - [Transform Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage03_transform_sowers_project.py)
-  - Combined multiple paragraph elements from the services page into a single text field for analysis
-  - Removed symbols, punctuation, and non-meaningful tokens (e.g., "-", special characters)
+**Validate:** Checked for required elements such as headings and paragraph tags
 
-- **Analyze:** Generated treemap and word cloud visualizations and frequency summaries
-  - [Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
+- [Validate Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage02_validate_sowers_project.py)
 
-- **Load:** Saved processed data to CSV
-  - [Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
+**Transform:** Cleaned text, tokenized, and computed features (token counts, ratios)
+
+- [Transform Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage03_transform_sowers_project.py)
+- Combined multiple paragraph elements from the services page into a single text field for analysis
+- Removed symbols, punctuation, and non-meaningful tokens (e.g., "-", special characters)
+
+**Analyze:** Generated treemap and word cloud visualizations and frequency summaries
+
+- [Analyze Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze_sowers_project.py)
+
+**Load:** Saved processed data to CSV
+
+- [Load Stage Code](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/stage05_load.py)
 
 Files:
 
