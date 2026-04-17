@@ -28,7 +28,7 @@ To handle messy and/or inconsistent data:
 - Combined multiple paragraph elements into a single clean text field
 - Normalized whitespace and filtered stopwords
 
-**Source Website:**[S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
+**Source Website:** [S7 Custom Guitars Services Page](https://s7customguitars.com/services/)
 
 ---
 
@@ -68,7 +68,9 @@ I implemented a full EVTAL pipeline:
 **Image 2: Wordcloud**
 ![Word Cloud](images/sowers_wordcloud_project.png)
 
-**Pipeline file:** `src/nlp/pipeline_web_html_sowers_project.py`
+**Pipeline file:**
+
+- [Pipeline File](https://github.com/ssowers2/nlp-06-nlp-pipeline/blob/main/src/nlp/pipeline_web_html_sowers_project.py)
 
 ---
 
